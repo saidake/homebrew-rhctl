@@ -1,24 +1,24 @@
 class Rhctl < Formula
   desc "High-performance Rust CLI tool for remote host management"
   homepage "https://github.com/saidake/rhctl"
-  version "1.0.2"
-  license "GPL-3.0-or-later"
+  version "1.0.3"
+  license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/saidake/rhctl/releases/download/v1.0.2/rhctl-v1.0.2-macos-arm64"
-      sha256 "c6ad6603d045fb840d35c3c6441c084d65790c7630458c7b62ceb9760f506c99"
+      url "https://github.com/saidake/rhctl/releases/download/v1.0.3/rhctl-v1.0.3-macos-arm64"
+      sha256 "b51de47f3e2ab2bc2e64fd810da74b2a0ed48e66348275c0c1203b49d2e4bc18"
     end
     on_intel do
-      url "https://github.com/saidake/rhctl/releases/download/v1.0.2/rhctl-v1.0.2-macos-x86_64"
-      sha256 "09c36bc91af567be54beae39543db011bd56643fbb9f4673edd2f5cc43837b91"
+      url "https://github.com/saidake/rhctl/releases/download/v1.0.3/rhctl-v1.0.3-macos-x86_64"
+      sha256 "820905b5533eed8a5a076da4b93f396704cff97f7bce782ea53d25e8ea18145c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/saidake/rhctl/releases/download/v1.0.2/rhctl-v1.0.2-linux-x86_64"
-      sha256 "44e2eed2705d9faeb1c4a5bea5424a171423fe35dfae0364469534af4876d0b8"
+      url "https://github.com/saidake/rhctl/releases/download/v1.0.3/rhctl-v1.0.3-linux-x86_64"
+      sha256 "eae359aee1d53fe051424edf61f52bc275ef391ad1ec80040d518209f3b56317"
     end
   end
 
